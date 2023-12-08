@@ -1,0 +1,107 @@
+.container{
+  height: 100%;
+  width:100%;
+  min-height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -90px 0;
+}
+.innerBox{
+  height: fit-content;
+  width: fit-content;
+  min-width: 380px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: white;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .error{
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #ff3300;
+  text-align: center;
+}
+.footer button{
+  outline: none;
+  border: none;
+  background-color: teal;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: 100%;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.footer button:disabled{
+  background-color: grey !important;
+}
+
+.footer button:hover{
+  background-color: rgb(72, 161, 161);
+}
+
+.footer p{
+  font-weight: 700;
+  color: #000;
+}
+
+.footer p span a{
+  font-weight: bold;
+  color: teal;
+  letter-spacing: 1px;
+  font-size: 1rem; 
+  text-decoration: none;
+}
+
+
+.inputcontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inputcontainer > label{
+  font-weight: 700;
+  font-size: 1rem;
+  color: teal;
+  margin-bottom: -10px;
+}
+
+.inputcontainer input{
+  border-radius: 5px;
+  border: 2px solid #eee;
+  outline: none;
+  padding: 5px 15px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.inputcontainer input:hover{
+  border-color: #ccc;
+}
+
+.inputcontainer input:focus{
+  border-color: teal;
+}
+
+.checkbox{
+  display: flex;
+  gap: 20px;
+}

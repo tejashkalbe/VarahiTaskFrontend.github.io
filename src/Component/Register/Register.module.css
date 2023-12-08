@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.heading{
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  color: teal;
+  text-align: center;
+}
+
+.container p{
+  font-weight: 700 !important;
+  color: #000;
+}
+
+.container p span a{
+  font-weight: bold;
+  color: teal;
+  letter-spacing: 1px;
+  font-size: 1rem; 
+  text-decoration: none;
+}
+
+
+

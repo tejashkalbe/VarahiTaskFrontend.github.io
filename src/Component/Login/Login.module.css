@@ -1,0 +1,76 @@
+.container{
+  height: 100%;
+  width:100%;
+  min-height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerBox{
+  height: fit-content;
+  width: fit-content;
+  min-width: 380px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  /* margin-left: 35vh; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+}
+.innerBox>h1{
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-top: -10px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .error{
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #ff3300;
+  text-align: center;
+}
+
+.footer button:disabled{
+  background-color: grey !important;
+}
+
+.footer button{
+  outline: none;
+  border: none;
+  background-color: teal;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: 100%;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.footer button:hover{
+  background-color: rgb(72, 161, 161);
+}
+
+.footer p{
+  font-weight: 700;
+  color: #000;
+}
+
+.footer p span a{
+  font-weight: bold;
+  color: teal;
+  letter-spacing: 1px;
+  font-size: 1rem; 
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.inputcontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inputcontainer label{
+  font-weight: 700;
+  font-size: 1rem;
+  color: teal;
+  margin-bottom: -10px;
+}
+
+.inputcontainer input{
+  border-radius: 5px;
+  border: 2px solid #eee;
+  outline: none;
+  padding: 5px 15px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.inputcontainer input:hover{
+  border-color: #ccc;
+}
+
+.inputcontainer input:focus{
+  border-color: teal;
+}
+

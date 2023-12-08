@@ -1,0 +1,7 @@
+.btn1,.btn2{
+border-radius: 5px;
+padding: 5px 10px;
+background-color: rgb(51, 199, 199);
+color: aliceblue;
+font-weight: 600;
+}

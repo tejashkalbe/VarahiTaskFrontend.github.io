@@ -1,0 +1,31 @@
+.btn1{
+background-color: rgb(102, 159, 206);
+}
+
+.btn2{
+  background-color: rgba(255, 0, 0, 0.705);
+}
+
+.btn1,.btn2,.add{
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn{
+  display: flex;
+  gap: 5px;
+}
+
+.add{
+background: rgb(243, 199, 53);
+width: 6rem;
+}
+.border1,.border2{
+  border: none;
+}
+.border1{
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
